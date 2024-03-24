@@ -7,7 +7,7 @@ Prashanth Nallathamby
 from playsound import playsound
 import random
 
-# Function to play the sound at random
+# Function to play the swap sound effect
 def sound_effect():
     option = random.randint(1,3) # Generate a random number between 1 and 3 to select the type
     if option == 1:
